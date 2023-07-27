@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F1F2E0;
+}
+.container{
+    background-color: #660F0F;
+    height: 120vh;
+}
+
+.para{
+    max-width: 600px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.paragraph h1{
+    width: 500px;
+    font-size: 80px;
+    color: bisque;
+}
+.paragraph1 p{
+    color: bisque;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.button button{
+    margin-top: 20px;
+    padding: 20px 45px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #60A9C2;
+    transition: 0.4s ease;
+}
+.button :hover{
+    background-color: lightgray;
+}
+
+.image{
+    position: absolute;
+    right: 9%;
+    top: 32%;
+}
+.image img{
+    border-radius: 35px;
+    width: 440px;
+}
+
+
+
+
+
+/* Create the navbar in the top */
+.navbar{
+    justify-content: space-between;
+    background: white;
+    display: flex;
+    position: fixed;
+    width: 1130px;
+    padding: 26px;
+    border-radius: 60px;
+    margin-right: 40px;
+    top: 12px;
+    left: 100px;
+    box-sizing: content-box;
+}
+
+.heading h1{
+    font-size: 28px;
+}
+
+.anchor{
+    padding-top: 5px;
+}
+.anchor a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding-left: 34px;
+    transition: 0.3s ease;
+}
+.anchor a:hover{
+    color: #60A9C2;
+}
+.button1{
+    position: absolute;
+    right: 12%;
+    top: 36%;
+}
+
+.button1 a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+.button2{
+    margin-top: 4px;
+}
+.button2 a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+
+}
+
+/* Create a features heading in html css desgin */
+.heading{
+    text-align: center;
+}
+.heading .head1{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 80px;
+}
+.images{
+    display: flex;
+    margin-left: 110px;
+}
+.images img{
+    width: 300px;
+    border-radius: 20px;
+    height: 310px;
+}
+
+.image1{
+    background-color: #DE97C8;
+    width: 360px;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 20px 30px 30px 30px;
+}
+.image1 button{
+    border: 1px solid #7C2582;
+    background: none;
+    padding: 10px 20px;
+    color: #601665;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.image2{
+    background-color: #D2E71C;
+    width: 360px;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 20px 0px 30px 30px;
+}
+.image2 button{
+    border: 1px solid #7C2582;
+    background: none;
+    padding: 10px 20px;
+    color: #601665;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.image3{
+    background-color: #A01E1E;
+    width: 360px;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 20px 30px 30px 30px;
+}
+
+.image3 button{
+    border: 1px solid white;
+    background: none;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.images h1{
+    padding-top: 30px;
+}
+.images .heading1{
+    color: #601665;
+}
+.images .para1{
+    color: #7C2582;
+}
+.images p{
+    padding-top: 10px;
+    font-size: 19px;
+}
+.images .para2{
+    width: 280px;
+}
+.images .heading3{
+    color: white;
+}
+.images .para3{
+    color: white;
+}
+
+.features{
+    margin-bottom: 100px;
+}
+
+
+
+/* Create a search bar in this website */
+.become{
+    background: #641E69;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.become1 h1{
+    width: 580px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 65px;
+    color: #E9B9EC;
+}
+.seach-bar{
+    text-align: center;
+    
+}
+.seach-bar input{
+    padding: 14px 20px;
+    font-size: 16px;
+    width: 240px;
+    border-radius: 6px;
+    border: none;
+    background-color: none;
+}
+
+.seach-bar .btn{
+    margin-top: 20px;
+    background: #AEB903;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 17px 40px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 10px;
+    transition: 0.7s ease;
+}
+
+.seach-bar .btn:hover{
+    background: #D7DE6B;
+}
+
+
+
+
+/* Create a services heading in this website */
+.services-heading{
+    text-align: center;
+    font-size: 35px;
+}
+.services{
+    margin-bottom: 60px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.creation{
+    height: 280px;
+    background: white;
+    width: 370px;
+    border-radius: 20px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.creation i{
+    background: #E9B9EC;
+    padding: 26px 30px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+.creation h1{
+    padding-top: 20px;
+}
+.creation p{
+    width: 300px;
+    font-size: 19px;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+
+/* Create promote your brand in this website */
+.promote{
+    display: flex;
+    background: #E9B9EC;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    margin-bottom: 100px;
+}
+.promote .images1 img{
+    width: 390px;
+    border-radius: 20px;
+}
+.promote-heading{
+    padding-left: 50px;
+    width: 550px;
+    font-size: 20px;
+}
+.promote-heading h1{
+    color: #641E69;
+}
+.promote-heading p{
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.promote-heading button{
+    background: #601665;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 18px 24px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.promote-heading button:hover{
+    background: #DE6EC2;
+}
+
+
+
+/* Create a our team in heading in this website */
+.our-team1{
+    margin-left: 200px;
+    float: left;
+    margin-bottom: 400px;
+}
+.our-team1 h1{
+    font-size: 60px;
+}
+.our-team1 p{
+    font-size: 20px;
+    width: 360px;
+}
+.our-team1 button{
+    margin-top: 20px;
+    padding: 18px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    background: #601665;
+    border: none;
+    transition: 0.4s ease;
+}
+
+.our-team1 button:hover{
+    background: #7C2582;
+}
+
+.designer1{
+    float: left;
+    background: white;
+    width: 500px;
+    margin-left: 100px;
+    padding: 30px 40px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.designer1 p{
+    padding-top: 10px;
+    width: 220px;
+    font-size: 19px;
+}
+.designer1 .anchor{
+    margin-top: 10px;
+    background: #DE6EC2;
+    float: right;
+    text-decoration: none;
+    color: #601665;
+    padding: 12px 20px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+.designer1 .anchor:hover{
+    background-color: #DE97C8;
+}
+
+
+
+
+/* Create a share content in this website */
+.influencer{
+    background-color: #601665;
+    height: 300px;
+    clear: both;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+.influencerm5{
+    background-color: #DE97C8;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 38px;
+    border-radius: 24px;
+    margin: auto;
+    padding-top: 20px 40px;
+}
+
+
+
+/* Creata a mapging app with the help of tag in this website */
+.our-office{
+    text-align: center;
+}
+.our-office h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.our-office iframe{
+    width: 800px;
+    border-radius: 10px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.imagess{
+    display: flex;
+    border-radius: 0px;
+    padding-top: 20px;
+    padding-left: 420px;
+    background: #601665;
+    height: 240px;
+}
+.images-para{
+    position: absolute;
+    right: 34%;
+    top: 766%;
+    width: 500px;
+}
+.images-para p{
+    text-align: center;
+    color: white;
+}
+.imagess .image11 img{
+    height: 134px;
+    margin-right: 20px;
+}
+.imagess img{
+    width: 200px;
+}
+
+.black-footer{
+    background-color: #1C191B;
+    height: 50px;
+    /* margin-bottom: 300px; */
+}
+.copy-footer p{
+    text-align: center;
+    color: gray;
+    padding-top: 20px;
+}
